@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+
+  <span>Web Test</span>
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#recentTravelers" class="navbar-link hover-1" data-nav-toggler>Viajes</a>
+          </li>
+
+          <li>
+            <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Recomendaciones</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Noticias</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contacto</a>
+          </li>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Suscribete</a>
+
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Bienvenido a mi blog!</p>
+
+            <h1 class="headline headline-1 section-title">
+              Soy <span class="span">Joeee doe</span>
+            </h1>
+
+
+            <p class="hero-text">
+              Hola me llamo Joe doe, estoy viviendo la experiencia de mi vida viajando por el mundo, conociendo lugares y gente maravillosa, en este blog conoceras los mejores secretos de cada pais ademas de los mejores tips de viaje!
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Escribe tu email" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Suscribete</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+            <!--Primera imagen -->
+            <img src="img/Mi proyecto.png" width="327" height="490" alt="Joe Doe" class="w-100">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="recentTravelers" id="recentTravelers" aria-labelledby="travel-label">
+        <div class="container">
+
+          <div class="card travel-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="travel-label">
+                Ultimos lugares visitados
+              </h2>
+
+              <p class="card-text">
+               Adentrate a conocer estos maravillosos lugares, su comida y los mejores tips para tus propios viajes
+              </p>
+
+              <!--  buttons carrefoul images-->
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <!--Slider-->
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="img/belgica.png" width="507" height="618" loading="lazy" alt="Belgica"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Belgica</span>
+
+                      <p class="slider-subtitle">102 fotos</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="img/espana.jpg" width="507" height="618" loading="lazy" alt="España"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">España</span>
+
+                      <p class="slider-subtitle">86 fotos</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="img/mexico.jpg" width="507" height="618" loading="lazy" alt="Mexico"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Mexico</span>
+
+                      <p class="slider-subtitle">87 Fotos</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="img/grecia.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Grecia</span>
+
+                      <p class="slider-subtitle">142 fotos</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="img/Japon.png" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">Japón</span>
+
+                      <p class="slider-subtitle">103 Fotos</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--Recomendations -->
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Últimas recomendaciones</span>
+          </h2>
+
+          <p class="section-text">
+           Mejores lugares para visitar en estas fechas y aprovechar los mejores climas y comidas
+          </p>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="img/comida_chile.jpg" width="1602" height="903" loading="lazy"
+                    alt="Cazuela chilena" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Chile</a>
+
+                      <a href="#" class="span hover-2">#ComidaTipica</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">6 minutos lectura</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      La asombrosa cazuela chilena, excelente para los días frios
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="img/axof7fb5.bmp" width="48" height="48" loading="lazy" alt="Joe Doe"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joe doe</p>
+
+                        <p class="card-subtitle">12 Enero 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Leer mas...</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="img/comidaCallejera_japon.png" width="1602" height="903" loading="lazy"
+                    alt="mujer japonesa cocinando" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#ComidaCallejera #Japon</a>
+
+                      <a href="#" class="span hover-2">#Economico</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">20 minutos lectura</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      La mejor comida callejera de todo el mundo? te lo contamos todo!
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="img/axof7fb5.bmp" width="48" height="48" loading="lazy" alt="Joe Doe"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joe Doe</p>
+
+                        <p class="card-subtitle">30 enero 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Leer mas...</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="img/machuPichu_peru.bmp" width="1602" height="903" loading="lazy"
+                    alt="" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Peru</a>
+
+                      <a href="#" class="span hover-2">#BuenClima</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">10 minutos lectura</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      Descubre el hermoso machu pichu en Perú
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="img/axof7fb5.bmp" width="48" height="48" loading="lazy" alt="Joe Doe"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joe Doe</p>
+
+                        <p class="card-subtitle">14 de noviembre 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Leer mas...</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="img/lucesBoreales_noruega.bmp" width="1602" height="903" loading="lazy"
+                    alt="luces boreales noruega" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#Noruega</a>
+
+                      <a href="#" class="span hover-2">#Frio</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">9 minutos lectura</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                     Las magicas auroras boreales en noruega
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="img/axof7fb5.bmp" width="48" height="48" loading="lazy" alt="Joe Doe"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joe Doe</p>
+
+                        <p class="card-subtitle">29 Marzo 2023</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Leer mas...</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="img/comidaTipica_españa.bmp" width="1602" height="903" loading="Las comida tipica española" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-tag">
+                      <a href="#" class="span hover-2">#España</a>
+
+                      <a href="#" class="span hover-2">#comidaTipica</a>
+                    </div>
+
+                    <div class="wrapper">
+                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="span">20 minutos lectura</span>
+                    </div>
+                  </div>
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      La increible comida tipica española
+                    </a>
+                  </h3>
+
+                  <div class="card-wrapper">
+
+                    <div class="profile-card">
+                      <img src="img/axof7fb5.bmp" width="48" height="48" loading="lazy" alt="Joe Doe"
+                        class="profile-banner">
+
+                      <div>
+                        <p class="card-title">Joe Doe</p>
+
+                        <p class="card-subtitle">12 junio 2022</p>
+                      </div>
+                    </div>
+
+                    <a href="#" class="card-btn">Leer mas...</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Mostrar Mas</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+    
+      </section>
+
+      <!--Recents posts-->
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+          <div class="post-main">
+            <h2 class="headline headline-2 section-title">
+              <span class="span">Noticias recientes</span>
+            </h2>
+            <p class="section-text">
+              No te pierdas las últimas noticias
+            </p>
+            <ul class="grid-list">
+              <li>
+                <div class="recent-post-card">
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="img/viajar-avion.jpg" width="271" height="258" loading="lazy"
+                      alt="j" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Ofertas de vuelo</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">No te pierdas las últimas ofertas!</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis tortor. Suspendisse ut auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nulla nisl, mattis sed tellus sed
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Noticia</a>
+
+                        <a href="#" class="span hover-2"># Tip</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 minutos lectura</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="img/hoteles_noticias.jpg" width="271" height="258" loading="lazy"
+                      alt="j" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Ofertas</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Hoteles lanzan paquetes de oferta</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis tortor. Suspendisse ut auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nulla nisl, mattis sed tellus sed
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Noticia</a>
+
+                        <a href="#" class="span hover-2"># Tip</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">4 minutos lectura</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="img/japon_noticias.jpg" width="271" height="258" loading="lazy"
+                      alt="j" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Últimas noticias</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Japón piensa en abrir sus fronteras</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis tortor. Suspendisse ut auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nulla nisl, mattis sed tellus sed
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Noticia</a>
+
+                        <a href="#" class="span hover-2"># Tip</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 minutos lectura</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="img/polonia_noticias.jpg" width="271" height="258" loading="lazy"
+                      alt="j" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Ofertas</a>
+          
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Polonia ofrece increibles ofertas para turistas </a>
+                    </h3>
+
+                    <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis tortor. Suspendisse ut auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nulla nisl, mattis sed tellus sed
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Noticia</a>
+
+                        <a href="#" class="span hover-2"># Tip</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 minutos lectura</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="img/pandemia_noticia.jpg" width="271" height="258" loading="lazy"
+                      alt="j" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <a href="#" class="card-badge">Ultimas noticias</a>
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2">Se acaba la pandemia, el mundo abre sus puertas</a>
+                    </h3>
+
+                    <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae venenatis tortor. Suspendisse ut auctor lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent nulla nisl, mattis sed tellus sed
+                    </p>
+
+                    <div class="card-wrapper">
+                      <div class="card-tag">
+                        <a href="#" class="span hover-2"># Noticia</a>
+
+                        <a href="#" class="span hover-2"># Tip</a>
+                      </div>
+
+                      <div class="wrapper">
+                        <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                        <span class="span">3 minutos lectura</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <nav aria-label="pagination" class="pagination">
+
+              <a href="#" class="pagination-btn" aria-label="previous page">
+                <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+              </a>
+
+              <a href="#" class="pagination-btn">1</a>
+              <a href="#" class="pagination-btn">2</a>
+              <a href="#" class="pagination-btn">3</a>
+              <a href="#" class="pagination-btn" aria-label="more page">...</a>
+
+              <a href="#" class="pagination-btn" aria-label="next page">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+
+            </nav>
+
+          </div>
+
+          <div class="post-aside grid-list">
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Post mas populares</span>
+              </h3>
+
+              <ul class="popular-list">
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="img/imagen_1.jpg" width="64" height="64" loading="lazy" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Lo hermoso de la naturaleza</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 minutos lectura</p>
+
+                        <time class="publish-date" >13 mayo 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="img/imagen_2.jpg" width="64" height="64" loading="lazy"
+                        alt="Ofertasincreibles en francia" class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Ofertas increibles en francia</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 minutos lectura</p>
+
+                        <time class="publish-date" >13 mayo 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="img/imagen_3.jpg" width="64" height="64" loading="lazy"
+                         class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Un día en la ciudad mas alegre del mundo</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 minutos lectura</p>
+
+                        <time class="publish-date" >13 mayo 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" style="--width: 64; --height: 64;">
+                      <img src="img/imagen_4.jpg" loading="lazy"
+                    class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Te cuento mi experiencia en Bali</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">15 minutos lectura</p>
+
+                        <time class="publish-date">30 mayo 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="popular-card">
+
+                    <figure class="card-banner img-holder" >
+                      <img src="img/popular_imagen_1.jpg" loading="lazy"
+                       class="img-cover">
+                    </figure>
+
+                    <div class="card-content">
+
+                      <h4 class="headline headline-4 card-title">
+                        <a href="#" class="link hover-2">Las mejores ofertas en francia</a>
+                      </h4>
+
+                      <div class="warpper">
+                        <p class="card-subtitle">20 minutos lectura</p>
+
+                        <time class="publish-date" >13 mayo 2022</time>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="card aside-card">
+
+              <h3 class="headline headline-2 aside-title">
+                <span class="span">Ultimos comentarios</span>
+              </h3>
+
+              <ul class="comment-list">
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="img/perfil_2re.jpg" width="32" height="32" loading="lazy" alt="Francisca Ruiz">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Francisca Ruiz</p>
+
+                        <time class="card-date">13 mayo 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="img/perfil20.jpg" width="32" height="32" loading="lazy" alt="Emilia Doe">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Emilia Doe</p>
+
+                        <time class="card-date">13 mayo 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+                <li>
+                  <div class="comment-card">
+
+                    <blockquote class="card-text">
+                      “ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. “
+                    </blockquote>
+
+                    <div class="profile-card">
+                      <figure class="profile-banner img-holder">
+                        <img src="img/perfil_3.jpg" width="32" height="32" loading="lazy"
+                          alt="Barbara Cartland">
+                      </figure>
+
+                      <div>
+                        <p class="card-title">Alicia</p>
+
+                        <time class="card-date">13 mayo 2022</time>
+                      </div>
+                    </div>
+
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="card aside-card insta-card">
+
+              <a href="#" class="logo">
+                <i class="fa-brands fa-instagram instafollow"></i>
+              </a>
+
+              <p class="card-text">
+                Siguenos en instagram
+              </p>
+
+              <ul class="insta-list">
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/ny_1.webp" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/ny_2.jpeg" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/finlandia_1.webp" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/india_1.jpg" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/india_2.jpg" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/finlandia_2.webp" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/colombia_3.jpg" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/colombia_2.jpg" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="insta-post img-holder" style="--width: 276; --height: 277;">
+                    <img src="img/colombia_1.webp" width="276" height="277" loading="lazy"
+                      class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+<!--Foooter -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="#" width="119" height="37" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus libero nec ex fringilla ultricies. Ut efficitur massa ac magna lacinia.
+            </p>
+
+            <p class="footer-list-title">Dirección</p>
+
+            <address class="footer-text address">
+              123 Calle falsa <br>
+              Alpha Beta Santiago.
+            </address>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Categorias</p>
+
+            <ul>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Comida</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Hoteles</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Tours</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Rio Janeiro</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Curiosidades</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Animales</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Asia</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Europa</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Sur America</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Norte America</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Medio oriente</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link hover-2">Oceania</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="footer-list">
+
+            <p class="footer-list-title">Suscribete</p>
+
+            <p class="footer-text">
+              Suscribete, recibe nuetras ultimas noticias y entradas a nuestro blog contandote nuestras experiencias
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Tu nombre" required class="input-field" autocomplete="off">
+
+              <i class="fa-solid fa-user iconFont"></i>
+
+            </div>
+
+            <div class="input-wrapper">
+              
+              <input type="email" name="email_address" placeholder="Email" required class="input-field"
+                autocomplete="off">
+                
+                <i class="fa-regular fa-envelope iconFont"></i>
+
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Suscribete</span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-twitter"></i>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-square-facebook"></i>
+
+                <span class="span">Facebook</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <i class="fa-brands fa-instagram"></i>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+  
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+</body>
+<script src="js/vendor.js"></script>
+<script src="js/app.js"></script>
+
+</html>
